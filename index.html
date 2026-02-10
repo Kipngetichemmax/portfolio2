@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name — Builder / Engineer</title>
+    <meta name="description" content="Early-career engineer building systems that matter. Focused on clarity, execution, and momentum.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=IBM+Plex+Mono:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <a href="#" class="logo">your_name</a>
+        <ul>
+            <li><a href="#work">work</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="terminal-line">
+            <h1>Building systems that <span>scale</span>.</h1>
+        </div>
+        <div class="terminal-line">
+            <p class="subtitle">Early-career engineer focused on clarity, execution, and shipping consistently. No fluff.</p>
+        </div>
+        <div class="terminal-line">
+            <div class="cta-group">
+                <a href="#work" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="section">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">Selected Work</h2>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">Real-Time Analytics Dashboard</h3>
+                        <span class="project-type">Full Stack</span>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    Built a real-time monitoring system for tracking system health across distributed services. 
+                    Problem: Teams were blind to performance degradation. 
+                    Solution: WebSocket-based dashboard with 500ms latency.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">WebSockets</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                </div>
+                <a href="#" class="project-link">View details →</a>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">API Rate Limiter Middleware</h3>
+                        <span class="project-type">Backend</span>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    Designed a token bucket rate limiter to prevent API abuse. 
+                    Trade-off: Chose Redis over in-memory for distributed systems despite added latency. 
+                    Result: Handled 10k req/s with 99th percentile latency under 50ms.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Go</span>
+                    <span class="tech-tag">Redis</span>
+                    <span class="tech-tag">Docker</span>
+                </div>
+                <a href="#" class="project-link">View details →</a>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">CLI Tool for Dev Workflows</h3>
+                        <span class="project-type">Tooling</span>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    Created a CLI to automate repetitive git workflows and deployment checks. 
+                    Problem: Manual PR reviews took 10+ minutes. 
+                    Approach: Scripted common patterns, added lint/test checks.
+                    Saved the team ~2 hours/week.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Bash</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Git</span>
+                </div>
+                <a href="#" class="project-link">View details →</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Edge Section -->
+    <section class="section">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">My Edge</h2>
+        </div>
+        
+        <ul class="edge-list">
+            <li>Systems-first thinking: I optimize for maintainability, not just features</li>
+            <li>Learning in public: I document decisions and trade-offs, not just outcomes</li>
+            <li>Simplicity over complexity: If it can't be explained clearly, it's overengineered</li>
+            <li>Shipping consistently: Small iterations beat perfect paralysis</li>
+            <li>Building for real users: I validate assumptions with feedback, not guesswork</li>
+        </ul>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">About</h2>
+        </div>
+        
+        <div class="about-content">
+            <p>
+                I'm an early-career engineer focused on building systems that solve real problems. 
+                I think in trade-offs, not absolutes. Clean code is code that works, ships, and can be changed.
+            </p>
+            <p>
+                Right now I'm exploring distributed systems, API design, and developer tooling. 
+                I care about performance, observability, and making complex systems understandable.
+            </p>
+            
+            <div class="principles">
+                <h3>How I Work</h3>
+                <ul class="edge-list">
+                    <li>I write code for humans first, machines second</li>
+                    <li>I optimize for iteration speed over perfection</li>
+                    <li>I value direct feedback over assumptions</li>
+                    <li>I document the "why" as much as the "what"</li>
+                </ul>
+            </div>
+            
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                Currently: Building portfolio projects + exploring Go/Rust
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">Get In Touch</h2>
+        </div>
+        
+        <div class="contact-content">
+            <p style="color: var(--gray); margin-bottom: 30px;">
+                Open to freelance work, collaboration, or full-time opportunities. 
+                If you're building something interesting, let's talk.
+            </p>
+            
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-link">
+                    <span class="contact-icon">✉</span>
+                    <span>your.email@example.com</span>
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" class="contact-link">
+                    <span class="contact-icon">⚡</span>
+                    <span>github.com/yourusername</span>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-link">
+                    <span class="contact-icon">🔗</span>
+                    <span>linkedin.com/in/yourprofile</span>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="container">
+        <p>Built with intention. No frameworks, just HTML + CSS.</p>
+        <p style="margin-top: 10px; opacity: 0.5;">© 2026 Your Name</p>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+
+</body>
+</html>
